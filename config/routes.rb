@@ -10,7 +10,7 @@ Rails.application.routes.draw do
     member do
       get :followings
       get :followers
-      get :favthings
+      get :favposts
       get :likes
     end
   end
