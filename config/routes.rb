@@ -11,6 +11,7 @@ Rails.application.routes.draw do
       get :followings
       get :followers
       get :favthings
+      get :likes
     end
   end
 
